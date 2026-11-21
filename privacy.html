@@ -9,6 +9,9 @@
          line-height: 1.8; color: #1c1f27; background: #fafafa; }
   h1 { font-size: 22px; } h2 { font-size: 17px; margin-top: 28px; }
   .muted { color: #666; font-size: 14px; }
+  /* スマホで単語の途中で改行しないように(対応していないブラウザでは今までどおり) */
+  p, li { word-break: auto-phrase; }
+  h1, h2 { text-wrap: balance; }
 </style>
 </head>
 <body>
