@@ -1,0 +1,3 @@
+# GitHub Pages(Jekyll)の設定。作業用のメモをサイトに公開しない
+exclude:
+  - CLAUDE.md
